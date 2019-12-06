@@ -16,7 +16,7 @@ let grid_height = argv.grid_height || 180;
   const browser = await puppeteer.launch({
       defaultViewport: {
           width: 1400,
-          height: 660,
+          height: 1400,
           isLandscape: true
       }
   });
